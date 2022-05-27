@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.ResponseWrapper.Sample.Api", "DotNet.ResponseWrapper.Sample.Api\DotNet.ResponseWrapper.Sample.Api.csproj", "{E2C8C711-BAC0-4C87-8CEF-66E5C021B558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.ResponseWrapper.Sample.Library", "DotNet.ResponseWrapper.Sample.Library\DotNet.ResponseWrapper.Sample.Library.csproj", "{3EA4ADE3-A596-4A2A-847B-FDE749EF4896}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2C8C711-BAC0-4C87-8CEF-66E5C021B558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C8C711-BAC0-4C87-8CEF-66E5C021B558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C8C711-BAC0-4C87-8CEF-66E5C021B558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C8C711-BAC0-4C87-8CEF-66E5C021B558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA4ADE3-A596-4A2A-847B-FDE749EF4896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA4ADE3-A596-4A2A-847B-FDE749EF4896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA4ADE3-A596-4A2A-847B-FDE749EF4896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA4ADE3-A596-4A2A-847B-FDE749EF4896}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B1A37D8-DD41-41B6-82BB-3EFD1ECA4777}
+	EndGlobalSection
+EndGlobal
