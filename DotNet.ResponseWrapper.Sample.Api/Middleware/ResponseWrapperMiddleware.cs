@@ -23,7 +23,7 @@ namespace DotNet.ResponseWrapper.Sample.Api.Middleware
         /// Invoke Method for the HttpContext
         /// </summary>
         /// <param name="context"></param>
-        /// <returns></returns>
+        /// <returns>Response</returns>
         public async Task Invoke(HttpContext context)
         {
             // Storing Context Body Response

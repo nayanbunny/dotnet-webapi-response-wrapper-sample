@@ -26,7 +26,7 @@ namespace DotNet.ResponseWrapper.Sample.Library.Helpers
             var status = result != null;
             var httpStatusCode = (HttpStatusCode)context.Response.StatusCode;
 
-            // NOTE: Add any further customizations if needed
+            // NOTE: Add any further customizations if needed here
 
             return new SampleResponse(requestUrl, data, error, status, httpStatusCode);
         }

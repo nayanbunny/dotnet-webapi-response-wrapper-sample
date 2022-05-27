@@ -22,9 +22,9 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+// Add Middleware Type to Application's Request pipeline
 app.UseMiddleware<ResponseWrapperMiddleware>();
 
 app.MapControllers();
 
 app.Run();
-
