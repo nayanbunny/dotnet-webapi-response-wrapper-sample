@@ -16,13 +16,13 @@ namespace DotNet.ResponseWrapper.Sample.Api.Middleware
         /// <summary>
         /// The Response Wrapper Middleware Constructor
         /// </summary>
-        /// <param name="next"></param>
+        /// <param name="next">The Request Delegate</param>
         public ResponseWrapperMiddleware(RequestDelegate next) => _next = next;
 
         /// <summary>
         /// Invoke Method for the HttpContext
         /// </summary>
-        /// <param name="context"></param>
+        /// <param name="context">The HTTP Context</param>
         /// <returns>Response</returns>
         public async Task Invoke(HttpContext context)
         {
