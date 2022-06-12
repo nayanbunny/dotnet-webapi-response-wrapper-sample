@@ -1,22 +1,5 @@
 # .Net 6 API Middleware Response Wrapper Sample
 
-Version: >= 6.0<br/>
-Language: C#<br/>
-
----
-
-## Dependencies
-
-Microsoft.AspNetCore.App<br/>
-Microsoft.AspNetCore.Http<br/>
-Microsoft.AspNetCore.Http.Extensions<br/>
-Microsoft.NetCore.App<br/>
-Newtonsoft.Json<br/>
-
----
-
-## Description
-
 **Middleware** is software that's assembled into an app pipeline to handle requests and responses. ASP.NET Core provides a rich set of built-in middleware components, but in some scenarios you might want to write a custom middleware.
 
 Each component:
@@ -43,22 +26,35 @@ The middleware class must include:<br/>
 
 ![Middleware Order](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/index/_static/middleware-pipeline.svg?view=aspnetcore-6.0)
 
----
+Language: C#<br/>
+.Net Version: >=6.0<br/>
 
-## Execution Steps
+## **Dependencies**
 
-1. Pre-requisites: .Net 6 and Visual Studio IDE.
-2. Launch .sln file in Visual Studio IDE.
-3. Build the Solution or API project.
-4. Run the API project.
-5. Swagger UI will be available at _/swagger/index.html_
-6. Select Endpoint, Try it out and Execute.
-7. Custom Formatted Response will be displayed under Response section.
+- Microsoft.AspNetCore.App
+- Microsoft.AspNetCore.Http
+- Microsoft.AspNetCore.Http.Extensions
+- Microsoft.NetCore.App
+- Newtonsoft.Json
 
----
+## **Pre-requisites**
 
-## References
+- .Net SDK
+- Visual Studio IDE
+
+## **Execution Steps**
+
+1. Launch .sln file in Visual Studio IDE.
+2. Build the Solution or API project.
+3. Run the API project.
+4. Swagger UI will be available at _/swagger/index.html_
+5. Select Endpoint, Try it out and Execute.
+6. Custom Formatted Response will be displayed under Response section.
+
+## **References**
 
 [Middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-6.0)
 
 [Custom Middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/write?view=aspnetcore-6.0)
+
+### :fire: Happy Coding
