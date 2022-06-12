@@ -1,6 +1,6 @@
 # .Net 6 API Middleware Response Wrapper Sample
 
-**Middleware** is software that's assembled into an app pipeline to handle requests and responses. ASP.NET Core provides a rich set of built-in middleware components, but in some scenarios you might want to write a custom middleware.
+`Middleware` is software that's assembled into an app pipeline to handle requests and responses. ASP.NET Core provides a rich set of built-in middleware components, but in some scenarios you might want to write a custom middleware.
 
 Each component:
 
@@ -17,17 +17,17 @@ Each component:
 
 The middleware class must include:<br/>
 
-- A public constructor with a parameter of type RequestDelegate.
-- A public method named Invoke or InvokeAsync. This method must:
+- A public constructor with a parameter of type `RequestDelegate`.
+- A public method named `Invoke` or `InvokeAsync`. This method must:
   - Return a Task.
-  - Accept a first parameter of type HttpContext.
+  - Accept a first parameter of type `HttpContext`.
 - Additional parameters for the constructor and Invoke/InvokeAsync are populated by dependency injection (DI).
-  Typically, an extension method is created to expose the middleware through IApplicationBuilder.
+  Typically, an extension method is created to expose the middleware through `IApplicationBuilder`.
 
 ![Middleware Order](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/index/_static/middleware-pipeline.svg?view=aspnetcore-6.0)
 
-Language: C#<br/>
-.Net Version: >=6.0<br/>
+Language: `C#`<br/>
+.Net Version: `>=6.0`<br/>
 
 ## **Dependencies**
 
@@ -44,12 +44,12 @@ Language: C#<br/>
 
 ## **Execution Steps**
 
-1. Launch .sln file in Visual Studio IDE.
+1. Launch .sln file in `Visual Studio IDE`.
 2. Build the Solution or API project.
 3. Run the API project.
-4. Swagger UI will be available at _/swagger/index.html_
+4. `Swagger UI` will be available at `/swagger/index.html`
 5. Select Endpoint, Try it out and Execute.
-6. Custom Formatted Response will be displayed under Response section.
+6. Custom formatted response will be displayed under response section.
 
 ## **References**
 
