@@ -7,8 +7,11 @@ Each component:
 - Chooses whether to pass the request to the next component in the pipeline.
 - Can perform work before and after the next component in the pipeline.
 
+<div align="center">
+
 ![Middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/index/_static/request-delegate-pipeline.png?view=aspnetcore-6.0)
 
+</div>
 <br/>
 
 > **Middleware** is generally encapsulated in a class and exposed with an extension method.
@@ -24,7 +27,11 @@ The middleware class must include:<br/>
 - Additional parameters for the constructor and Invoke/InvokeAsync are populated by dependency injection (DI).
   Typically, an extension method is created to expose the middleware through `IApplicationBuilder`.
 
+<div align="center">
+
 ![Middleware Order](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/index/_static/middleware-pipeline.svg?view=aspnetcore-6.0)
+
+</div>
 
 Language: `C#`<br/>
 .Net Version: `>=6.0`<br/>
